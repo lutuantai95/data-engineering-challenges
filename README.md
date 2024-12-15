@@ -30,6 +30,8 @@
 - **Output Destination**: Amazon S3
 - **Daily Data Volume**: Approximately 400-500 GiB
 - **Task**: Ingest low-latency streaming data from Kafka, process it, and store the transformed data in Amazon S3.
+- **Pipeline**
+![pipeline drawio](https://github.com/user-attachments/assets/c4d16404-c8c7-4902-9a03-29609764ac89)
 
 ---
 
@@ -140,13 +142,13 @@
     - Email notifications
 ---
 
-# Part 2: Infrastructure Deployment (Done)
+# Part 2: Infrastructure Deployment 
 
 - **Tasks**:
-  - **Airflow Setup Result on Kubernetes**:
+  - **Airflow Setup Result on Kubernetes**: (Done)
   
-  - **CI/CD Integration** (Optional):
-    - Include steps to deploy your Airflow setup and DAGs using a CI/CD pipeline if applicable.
+  - **CI/CD Integration** (Optional): (In progress)
+  
 
 ---
 
