@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/aff37bd6-022e-4465-a0da-017d9e7890e1)# Data Engineering Challenges
+# Data Engineering Challenges
 
 ---
 
