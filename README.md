@@ -138,7 +138,7 @@
 
 - **Tools and Mechanisms**:
   - **Monitoring**:
-    - Prometheus and Grafana base on helm [kube-prometheus-stack](https://artifacthub.io/packages/helm/prometheus-community/kube-prometheus-stack)
+    - Prometheus and Grafana base on helm [kube-prometheus-stack chart](https://artifacthub.io/packages/helm/prometheus-community/kube-prometheus-stack)
     ![image](https://github.com/user-attachments/assets/16914a65-0179-46e2-b3c9-1658b22c77c9)
 
   - **Alerting**:
@@ -164,7 +164,7 @@
   - Deployment base on helm [minio chart](https://artifacthub.io/packages/helm/bitnami/minio)
   - Emulate for AWS S3 storage
   ![image](https://github.com/user-attachments/assets/8167d897-ca60-4ad6-85df-9973e5a48c1a)
-  - Result after storing partioned parquet
+  - Result after storing partitioned parquet
   ![image](https://github.com/user-attachments/assets/c42ea241-238c-4640-8c21-09962266508b)
 
   ![image](https://github.com/user-attachments/assets/c16898da-5ef5-477a-90e3-15561f87d5c9)
