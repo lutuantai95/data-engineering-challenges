@@ -1,4 +1,4 @@
-# Data Engineering Challenges
+![image](https://github.com/user-attachments/assets/aff37bd6-022e-4465-a0da-017d9e7890e1)# Data Engineering Challenges
 
 ---
 
@@ -31,7 +31,8 @@
 - **Daily Data Volume**: Approximately 400-500 GiB
 - **Task**: Ingest low-latency streaming data from Kafka, process it, and store the transformed data in Amazon S3.
 - **Pipeline**
-![pipeline drawio](https://github.com/user-attachments/assets/c4d16404-c8c7-4902-9a03-29609764ac89)
+![pipeline drawio](https://github.com/user-attachments/assets/1f6b4a30-65ab-45a4-98a4-8ee47184188f)
+
 
 ---
 
@@ -146,9 +147,19 @@
 
 - **Tasks**:
   - **Airflow Setup Result on Kubernetes**: (Done)
-  
+    - Deployment base on helm [airflow offical chart](https://artifacthub.io/packages/helm/apache-airflow/airflow)
+  ![image](https://github.com/user-attachments/assets/0228a15b-dd8d-4699-a3d1-92c532f3acac)
+
   - **CI/CD Integration** (Optional): (In progress)
   
+# Additional Deployment
+- **Kafka**
+  - Deployment base on helm [kafka chart](https://artifacthub.io/packages/helm/bitnami/kafka)
+  ![image](https://github.com/user-attachments/assets/2fea3a41-8054-4b26-af42-6f90a3a89874)
+- **Minio**
+  - Deployment base on helm [minio chart](https://artifacthub.io/packages/helm/bitnami/minio)
+  - Emulate for AWS S3 storage
+  ![image](https://github.com/user-attachments/assets/8167d897-ca60-4ad6-85df-9973e5a48c1a)
 
 ---
 
