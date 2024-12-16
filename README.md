@@ -138,7 +138,9 @@
 
 - **Tools and Mechanisms**:
   - **Monitoring**:
-    - Prometheus and Grafana
+    - Prometheus and Grafana base on helm [kube-prometheus-stack](https://artifacthub.io/packages/helm/prometheus-community/kube-prometheus-stack)
+    ![image](https://github.com/user-attachments/assets/16914a65-0179-46e2-b3c9-1658b22c77c9)
+
   - **Alerting**:
     - Email/Telegram/Slack notifications
 ---
