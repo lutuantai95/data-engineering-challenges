@@ -140,7 +140,7 @@
   - **Monitoring**:
     - Prometheus and Grafana
   - **Alerting**:
-    - Email notifications
+    - Email/Telegram/Slack notifications
 ---
 
 # Part 2: Infrastructure Deployment 
@@ -149,6 +149,8 @@
   - **Airflow Setup Result on Kubernetes**: (Done)
     - Deployment base on helm [airflow offical chart](https://artifacthub.io/packages/helm/apache-airflow/airflow)
   ![image](https://github.com/user-attachments/assets/0228a15b-dd8d-4699-a3d1-92c532f3acac)
+
+  ![image](https://github.com/user-attachments/assets/4de6b5ed-cbeb-4aff-a9e1-8d0eff79982b)
 
   - **CI/CD Integration** (Optional): (In progress)
   
@@ -160,6 +162,10 @@
   - Deployment base on helm [minio chart](https://artifacthub.io/packages/helm/bitnami/minio)
   - Emulate for AWS S3 storage
   ![image](https://github.com/user-attachments/assets/8167d897-ca60-4ad6-85df-9973e5a48c1a)
+  - Result after storing partioned parquet
+  ![image](https://github.com/user-attachments/assets/c42ea241-238c-4640-8c21-09962266508b)
+
+  ![image](https://github.com/user-attachments/assets/c16898da-5ef5-477a-90e3-15561f87d5c9)
 
 ---
 
