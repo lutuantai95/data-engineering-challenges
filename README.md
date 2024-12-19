@@ -134,14 +134,19 @@
 }
 ```
 
-## Optional Step: Monitoring and Alerting (In progress)
+## Optional Step: Monitoring and Alerting 
 
-- **Tools and Mechanisms**:
+- **Tools and Mechanisms (Done)**: 
   - **Monitoring**:
     - Prometheus and Grafana base on helm [kube-prometheus-stack chart](https://artifacthub.io/packages/helm/prometheus-community/kube-prometheus-stack)
     ![image](https://github.com/user-attachments/assets/16914a65-0179-46e2-b3c9-1658b22c77c9)
 
-  - **Alerting**:
+    ![image](https://github.com/user-attachments/assets/88272d49-38ef-4ddb-a67a-1b6cabf62429)
+    
+    ![image](https://github.com/user-attachments/assets/467c7d45-762d-416d-9a70-da1e9b64a7ff)
+
+
+  - **Alerting (In progress)**: 
     - Email/Telegram/Slack notifications
 ---
 
@@ -153,8 +158,8 @@
   ![image](https://github.com/user-attachments/assets/0228a15b-dd8d-4699-a3d1-92c532f3acac)
 
   ![image](https://github.com/user-attachments/assets/4de6b5ed-cbeb-4aff-a9e1-8d0eff79982b)
-
-  - **CI/CD Integration** (Optional): (In progress)
+  
+  - **CI/CD Integration (In progress)** (Optional):
   
 # Additional Deployment
 - **Kafka**
