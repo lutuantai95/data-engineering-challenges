@@ -31,7 +31,7 @@
 - **Daily Data Volume**: Approximately 400-500 GiB
 - **Task**: Ingest low-latency streaming data from Kafka, process it, and store the transformed data in Amazon S3.
 - **Pipeline**
-![pipeline drawio](https://github.com/user-attachments/assets/1f6b4a30-65ab-45a4-98a4-8ee47184188f)
+![Image](images/pipeline.png)
 
 
 ---
@@ -137,37 +137,53 @@
 ## Optional Step: Monitoring and Alerting 
 
 - **Tools and Mechanisms (Done)**: 
-  - **Monitoring**:
-    ![image](https://github.com/user-attachments/assets/16914a65-0179-46e2-b3c9-1658b22c77c9)
+  - **Monitoring**: (Done)
 
-    ![image](https://github.com/user-attachments/assets/88272d49-38ef-4ddb-a67a-1b6cabf62429)
+    Prometheus 
+
+    ![image](images/prometheus.png)
+
+    ![image](images/prometheus_graph.png)
     
-    ![image](https://github.com/user-attachments/assets/467c7d45-762d-416d-9a70-da1e9b64a7ff)
+    Grafana
+
+    ![image](images/grafana_graph.png)
 
 
-  - **Alerting (In progress)**: 
+  - **Alerting**: (In progress)
     - Email/Telegram/Slack notifications
 ---
 
-# Part 2: Infrastructure Deployment 
+# Part 2: Infrastructure Deployment (Done)
 
 - **Tasks**:
-  - **Airflow Setup Result on Kubernetes**: (Done)
-  ![image](https://github.com/user-attachments/assets/0228a15b-dd8d-4699-a3d1-92c532f3acac)
 
-  ![image](https://github.com/user-attachments/assets/4de6b5ed-cbeb-4aff-a9e1-8d0eff79982b)
+  **Airflow Setup Result on Kubernetes**: 
+
+  ![image](images/airflow_k8s.png)
+
+  ![image](images/airflow_web.png)
+
+  ![image](images/airflow_dtl.png)
   
-  - **CI/CD Integration (In progress)** (Optional):
+  **CI/CD Integration** :
+
+
   
 # Additional Deployment
 - **Kafka**
-  ![image](https://github.com/user-attachments/assets/2fea3a41-8054-4b26-af42-6f90a3a89874)
-- **Minio**
-  - Emulate for AWS S3 storage
-  ![image](https://github.com/user-attachments/assets/8167d897-ca60-4ad6-85df-9973e5a48c1a)
-  - Result after storing partitioned parquet
-  ![image](https://github.com/user-attachments/assets/c42ea241-238c-4640-8c21-09962266508b)
+  ![image](images/kafka.png)
 
-  ![image](https://github.com/user-attachments/assets/c16898da-5ef5-477a-90e3-15561f87d5c9)
+- **Minio**
+
+  Emulate for AWS S3 storage
+
+  ![image](images/minio.png)
+
+  Result after storing partitioned parquet
+
+  ![image](images/minio_web.png)
+
+  ![image](images/minio_dtl.png)
 
 ---
