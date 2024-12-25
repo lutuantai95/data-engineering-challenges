@@ -166,8 +166,9 @@
 
   ![image](images/airflow_dtl.png)
   
-  **CI/CD Integration** :
-  Wait for evidence images
+  **CI/CD Integration**:
+
+  ![image](images/git_sync.gif)
 
   
 # Additional Deployment
