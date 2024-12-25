@@ -136,7 +136,7 @@
 
 ## Optional Step: Monitoring and Alerting 
 
-- **Tools and Mechanisms (Done)**: 
+- **Tools and Mechanisms**: 
   - **Monitoring**: (Done)
 
     Prometheus 
@@ -167,7 +167,7 @@
   ![image](images/airflow_dtl.png)
   
   **CI/CD Integration** :
-
+  Wait for evidence images
 
   
 # Additional Deployment
