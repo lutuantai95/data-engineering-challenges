@@ -134,10 +134,10 @@
 }
 ```
 
-## Optional Step: Monitoring and Alerting 
+## Optional Step: Monitoring and Alerting (Done)
 
 - **Tools and Mechanisms**: 
-  - **Monitoring**: (Done)
+  - **Monitoring**: 
 
     Prometheus 
 
@@ -150,8 +150,10 @@
     ![image](images/grafana_graph.png)
 
 
-  - **Alerting**: (In progress)
-    - Email/Telegram/Slack notifications
+  - **Alerting**: 
+    - Telegram notifications with success/error count
+    
+    ![image](images/telegram.png)
 ---
 
 # Part 2: Infrastructure Deployment (Done)
